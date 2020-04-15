@@ -10,7 +10,7 @@ The logbook of the project can be found [here](https://docs.google.com/spreadshe
 All notebooks can also be found on Kaggle in my [profile](https://www.kaggle.com/tatianasnwrt/notebooks).
 
 This repo includes the following files:
-- The source files can be found in the folder named *Input data*;
+- The source files can be found in the folder named *Input data* (the input data can also be found on [Kaggle](https://www.kaggle.com/tatianasnwrt/pumpitup-challenge-dataset) here);
 - Pump it up_I. EDA (exploratory data analysis);
 - Pump it up_II. Data cleaning and preprocessing;
 - Pump it up_III. Model selection and submission.
