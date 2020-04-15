@@ -5,6 +5,16 @@ Using data from Taarifa and the Tanzanian Ministry of Water, predict which pumps
 
 A smart understanding of which waterpoints will fail can improve maintenance operations and ensure that clean, potable water is available to communities across Tanzania.
 
+The logbook of the project can be found [here](https://docs.google.com/spreadsheets/d/1WZEV42ZYOKRCZ4sI7Z5qV4wq5P0icH57lBRkzlpIq_c/edit?usp=sharing).
+
+All notebooks can also be found on Kaggle in my [profile](https://www.kaggle.com/tatianasnwrt/notebooks).
+
+This repo includes the following files:
+- The source files can be found in the folder named *Input data*;
+- Pump it up_I. EDA (exploratory data analysis);
+- Pump it up_II. Data cleaning and preprocessing;
+- Pump it up_III. Model selection and submission.
+
 In my research I've first performed an **exploratory data analysis**. In the beginning I calculated a preliminary/baseline accuracy score which means that a model predicting with the accuracy less than 54.31% is not adding any value, so it would not be better than an uneducated guess. I then splited the data into numerical and categorical columns, identified missing values to deal with in the preprocessing phase, searched for outliers in the data and assessed correlations among attributes.
 
 In the next step I've performed **data cleaning and preprocessing**. First of all I dropped features containing similar information to avoid multicollinearity. Then I filled missing values, reduced cardinality of several categorical features that had many types of values to be able to encode them. I performed ordinal encoding for those variables where it made sense and one-hot encoding for the rest of variables. Finally, I used feature engineering to create new predictors (including LDA, binning, binary variables, turning a date-time variable into a continious numerical variable).
